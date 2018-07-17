@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+ 
+ <hibernate-mapping>
+ <class name="Beans.HistoryBean" table="History">
+ <id name="Id" type="int">
+ <generator class="native"></generator>
+ </id>
+ <property name="IPAddress" type="string"></property>
+ <property name="Weather_condition" type="string"></property>
+ <property name="Place" type="string"></property>
+ <property name="CurrentDate" type="string"></property>
+ <property name="Temperature" type="float"></property>
+ 
+ </class>
+ </hibernate-mapping>
