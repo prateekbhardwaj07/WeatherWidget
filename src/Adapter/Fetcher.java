@@ -122,15 +122,15 @@ public class Fetcher {
 	 public static String getPicturePath(int weatherCode)
 	 {
 		 if(weatherCode==200||weatherCode==201||weatherCode==202||weatherCode==230||weatherCode==231)
-			 return "/WeatherProject/css/thunder.png";
+			 return "/WeatherWidget/css/thunder.png";
 		 if(weatherCode==804||weatherCode==801||weatherCode==802||weatherCode==803)
-			 return "/WeatherProject/css/sunwithclouds.png";
+			 return "/WeatherWidget/css/sunwithclouds.png";
 		 if(weatherCode==500||weatherCode==501||weatherCode==502||weatherCode==520||weatherCode==521||weatherCode==522)
-			 return "/WeatherProject/css/rain.png";
+			 return "/WeatherWidget/css/rain.png";
 		 if(weatherCode==800)
-			 return "/WeatherProject/css/black_sun.jpg";
+			 return "/WeatherWidget/css/black_sun.jpg";
 					 
-		return "/WeatherProject/css/black_sun.jpg";
+		return "/WeatherWidget/css/black_sun.jpg";
 	 }
 	
 	 public static String GenerateCase(String anyStr)

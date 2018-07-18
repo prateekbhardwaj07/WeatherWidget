@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" href="/WeatherProject/css/pageStyles.css" type="text/css"/>
+<link rel="stylesheet" href="/WeatherWidget/css/pageStyles.css" type="text/css"/>
 </head>
 <body>
 <div class="bigCard" id="card1">
@@ -19,15 +19,15 @@ if(request.getAttribute("Weather")!=null)
 	float clouds = weather.getCloud_coverage();
 	if(pod.equals("d")&&(clouds<10.0))
 	{
-		out.print("/WeatherProject/css/icons/sun.png");
+		out.print("/WeatherWidget/css/icons/sun.png");
 	}
 	else if(pod.equals("d")&&(clouds<60.0))
 	{
-		out.print("/WeatherProject/css/icons/cloudandsun.png");
+		out.print("/WeatherWidget/css/icons/cloudandsun.png");
 	}
 	else
 	{
-		out.print("/WeatherProject/css/icons/rain.png");
+		out.print("/WeatherWidget/css/icons/rain.png");
 	}
 }
  %>" style="margin:5%;float:left;"/>
